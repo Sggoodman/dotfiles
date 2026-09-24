@@ -1,0 +1,31 @@
+{
+  "//": "脱敏模板：真实 token 用系统环境变量或 settings.local.json 注入，本文件只保留结构",
+  "env": {
+    "ANTHROPIC_AUTH_TOKEN": "${ANTHROPIC_AUTH_TOKEN}",
+    "ANTHROPIC_BASE_URL": "https://open.bigmodel.cn/api/anthropic",
+    "ANTHROPIC_MODEL": "glm-5.3[1M]",
+    "ANTHROPIC_DEFAULT_HAIKU_MODEL": "glm-5.3-flash",
+    "ANTHROPIC_DEFAULT_SONNET_MODEL": "glm-5.2[1M]",
+    "ANTHROPIC_DEFAULT_OPUS_MODEL": "glm-5.3[1M]",
+    "ANTHROPIC_DEFAULT_FABLE_MODEL": "glm-5.3[1M]",
+    "API_TIMEOUT_MS": "3000000",
+    "CLAUDE_CODE_DISABLE_NONESSENTIAL_TRAFFIC": "1",
+    "CLAUDE_CODE_SUBAGENT_MODEL": "glm-5.3-flash[1M]"
+  },
+  "enabledPlugins": {
+    "glm-plan-bug@zai-coding-plugins": true,
+    "glm-plan-usage@zai-coding-plugins": true,
+    "gopls-lsp@claude-plugins-official": true,
+    "multica-cli@multica-cli": true,
+    "typesafe@typesafe-ai": true
+  },
+  "extraKnownMarketplaces": {
+    "multica-cli": {
+      "source": { "source": "github", "repo": "multica-ai/multica-cli" }
+    },
+    "typesafe-ai": {
+      "source": { "source": "github", "repo": "typesafe-ai/skills" }
+    }
+  },
+  "language": "中文"
+}
