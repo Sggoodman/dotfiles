@@ -1,7 +1,8 @@
 # Go 每日一库 · 完整清单
 
 > 来源：[darjun/go-daily-lib](https://github.com/darjun/go-daily-lib)（"Go 每日一库"系列官方合集，与 Go 语言中文网/公众号连载同步）。
-> 微信公众号无公开接口、无法直接爬取历史文章，此仓库即系列全部条目，**同步上游即可保持最新**。
+> 微信公众号无公开接口、无法批量爬取历史文章，以上游仓库为准，**同步上游即可保持最新**。
+> 公众号另有本站原创续写条目（上游未收录），讲解链接标注"公众号"，随见随录。
 > "讲解"列为作者博客（darjun.github.io，国内网络可能需要代理）；库名带 ★ 为 Go 标准库。
 
 ## 命令行与 CLI
@@ -58,6 +59,12 @@
 | dig | Uber 出品的依赖注入库 | [链接](https://darjun.github.io/2020/02/22/godailylib/dig) |
 | wire | Google 出品，编译前生成代码，无需反射 | [链接](https://darjun.github.io/2020/03/02/godailylib/wire) |
 
+## 错误处理
+
+| 库 | 说明 | 讲解 |
+|---|---|---|
+| multierr | Uber 出品的多错误处理库，优雅合并/遍历/检查多个错误 | [公众号](https://mp.weixin.qq.com/s/ruGsD7Kzbp8r_R5MTMQQOQ) |
+
 ## 消息与异步
 
 | 库 | 说明 | 讲解 |
@@ -84,6 +91,7 @@
 | jsonrpc | 标准 JSON-RPC 库 | [链接](https://darjun.github.io/2020/05/10/godailylib/jsonrpc) |
 | rpcx | 基于标准库扩展的高性能 RPC 框架 | [链接](https://darjun.github.io/2020/05/21/godailylib/rpcx) |
 | twirp | twitchtv 出品，基于 Protobuf 的 RPC 库 | [链接](https://darjun.github.io/2020/06/07/godailylib/twirp) |
+| grpc-gateway | gRPC 转 REST 工具，按 Protobuf HTTP 注解生成反向代理，一套服务双协议 | [公众号](https://mp.weixin.qq.com/s/cFDjNRybN3rDK3lawlEwzA) |
 
 ## Web 与 HTTP
 
@@ -96,6 +104,7 @@
 | gorilla/securecookie | gorilla 之安全 cookie 库 | [链接](https://darjun.github.io/2021/07/23/godailylib/gorilla/securecookie/) |
 | gorilla/sessions | gorilla 之 session 处理库 | [链接](https://darjun.github.io/2021/07/25/godailylib/gorilla/sessions) |
 | goth | 第三方登录认证合集 | [链接](https://darjun.github.io/2021/07/26/godailylib/goth) |
+| casbin | 灵活强大的权限管理库，支持多种访问控制模型 | [链接](https://darjun.github.io/2020/06/12/godailylib/casbin) |
 | negroni | Go 中间件库 | [链接](https://darjun.github.io/2020/06/19/godailylib/negroni) |
 | resty | HTTP client | [链接](https://darjun.github.io/2021/06/26/godailylib/resty) |
 | gentleman | HTTP 客户端 | [链接](https://darjun.github.io/2020/04/07/godailylib/gentleman) |
@@ -170,6 +179,8 @@
 | plot | 绘图库 | [链接](https://darjun.github.io/2020/04/12/godailylib/plot) |
 | bubbletea | TUI 程序框架 | [链接](https://darjun.github.io/2021/06/11/godailylib/bubbletea) |
 | termtables | 控制台输出表格 | [链接](https://darjun.github.io/2021/06/29/godailylib/termtables/) |
+| progressbar | 终端进度条库（schollz 出品），线程安全，支持样式/颜色定制、ETA 与速度显示 | [公众号](https://mp.weixin.qq.com/s/ABUFPZCjJCr5RStfLcSsGA) |
+| pb | 终端进度条库（cheggaaa 出品），支持多进度条池、模板自定义与颜色 | [公众号](https://mp.weixin.qq.com/s/GbJYAatXn2w0cIQ7fZDJqQ) |
 
 ## 效率工具与其他
 
