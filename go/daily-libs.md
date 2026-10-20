@@ -171,6 +171,13 @@
 | os/exec ★ | 执行外部命令 | [链接](https://darjun.github.io/2022/11/01/godailylib/osexec/) |
 | go-homedir | 不用 cgo 获取用户主目录，支持交叉编译 | [链接](https://darjun.github.io/2020/01/14/godailylib/go-homedir/) |
 
+## 运维与 DevOps
+
+| 库 | 说明 | 讲解 |
+|---|---|---|
+| radar | 开源 K8s UI，概览/Issues/服务拓扑/事件时间线，集成 Helm/GitOps，内置 MCP 服务器让 AI Agent 直接操作集群 | [公众号](https://mp.weixin.qq.com/s/dFUxHWf8oQ87A12L4yxQvw) |
+| ongrid | 运维 AI Agent，接入飞书/钉钉/企微/Telegram，自动查 Prometheus/Loki/Tempo 定位根因，危险操作需审批 | [公众号](https://mp.weixin.qq.com/s/7h2AYcJ4UjXM4cPyOWKg3A) |
+
 ## GUI / 游戏 / 绘图 / TUI
 
 | 库 | 说明 | 讲解 |
@@ -189,6 +196,8 @@
 |---|---|---|
 | air | 监听文件修改自动编译重启，提升开发效率 | [链接](https://darjun.github.io/2020/09/27/godailylib/air/) |
 | email | 发送邮件的第三方库 | [链接](https://darjun.github.io/2020/02/16/godailylib/email) |
+| boop | 自托管开发者通知收件箱，API 收事件经 APNs 推送到手机，支持分级/分组/动作按钮 | [公众号](https://mp.weixin.qq.com/s/9HIu8Kcuod3zCSdBzL_TVg) |
+| hister | 个人搜索引擎，Tantivy 全文索引浏览器历史与本地文件，Web/TUI/CLI/MCP 多端搜索 | [公众号](https://mp.weixin.qq.com/s/hT8eoUvIdfAADaX1ote0RQ) |
 
 ---
 
