@@ -82,6 +82,7 @@
 | xorm | ORM 库 | [链接](https://darjun.github.io/2020/05/07/godailylib/xorm) |
 | buntdb | 内存键值库，支持 JSON 操作和事务 | [链接](https://darjun.github.io/2020/03/21/godailylib/buntdb) |
 | nutsdb | 国人开发的内存键值库，支持备份还原 | [链接](https://darjun.github.io/2020/04/25/godailylib/nutsdb) |
+| pgbot | 只读 PostgreSQL 诊断工具，单二进制读统计视图出分级健康报告，带基线对比，支持 JSON/MCP/AI 解释 | [公众号](https://mp.weixin.qq.com/s/5EchRzVVCHiJpVnDmd7K5A) |
 
 ## RPC
 
